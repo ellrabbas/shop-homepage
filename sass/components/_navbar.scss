@@ -1,0 +1,56 @@
+nav {
+    background-color: $bg-navbar;
+}
+
+.navbar,
+.nav-list,
+.nav-left,
+.nav-right {
+    display: flex;
+}
+
+.navbar {
+    justify-content: space-between;
+    padding-block: 0.5rem;
+    padding-inline: 3rem;
+}
+
+.nav-left {
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    font-size: $navbar-brand-font-size;
+    color: $navbar-brand-color;
+    padding-block: $navbar-brand-padding-y;
+}
+
+.nav-list-link {
+    padding-inline: $nav-list-link-padding-x;
+    color: $nav-link-color;
+    font-size: $nav-link-font-size;
+    transition: all 0.15s ease-in-out;
+}
+
+.nav-list-link:hover {
+    color: $nav-link-hover;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge {
+    width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $black;
+    color: $white;
+    border-radius: 50%;
+    padding-block: 0.2px;
+    padding-inline: 15px;
+}

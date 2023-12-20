@@ -1,0 +1,33 @@
+@import "base";
+@import "variables";
+@import "components/navbar";
+@import "components/header";
+@import "components/section";
+@import "components/footer";
+
+.container {
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid $black;
+    border-radius: 4px;
+    padding-block: $btn-padding-y;
+    padding-inline: $btn-padding-x;
+    color: $black;
+    font-size: $btn-font-size;
+    font-weight: 400;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $black;
+        color: $white;
+    }
+}
+
+.text-center {
+    text-align: center;
+}

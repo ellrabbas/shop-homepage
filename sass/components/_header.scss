@@ -1,0 +1,33 @@
+header {
+    background-color: $bg-header;
+    padding-block: $header-padding-y;
+}
+
+header {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-block: 3rem;
+    }
+}
+
+.head-sect {
+    text-align: center;
+}
+
+.head-sect {
+    h1 {
+        font-size: $head-title;
+        font-weight: bolder;
+        line-height: 1.2;
+        color: $white;
+        margin-block-end: 0.5rem;
+    }
+
+    p {
+        color: $head-desc-color;
+        font-size: $head-desc;
+        font-weight: 400;
+    }
+}
